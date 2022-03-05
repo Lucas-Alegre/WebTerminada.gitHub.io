@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 70px 0px 0px;
+    margin: 0%;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0% auto;
+}
+.menu-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    line-height: 50px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-item{
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.menu-link:hover{
+    background: rgb(36, 54, 88);
+    transition: 0.5s;
+}
+.menu-link_active_home{
+    background: rgb(36, 54, 88);
+}
+
+.toggle{
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    padding: 0% 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+.debajo--titulo--h2{
+    margin: 0%;
+    display: block;
+    font-size: 80px;
+    background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 0.5px;
+    letter-spacing: 5px;
+    
+
+    /*animation: escribir 3s steps(30) ;*/
+}
+.debajo--titulo--h2-2{
+    margin: 0%;
+    display: block;
+    font-size: 80px;
+    background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 0.5px;
+    letter-spacing: 5px;
+    
+
+    /*animation: escribir 3s steps(30) ;*/
+}
+.debajo--titulo--p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.main--contenido{
+    padding-left: 30px;
+    font-family: "Encode Sans",Arial,sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(31, 30, 30);
+}
+.main--segundo{
+    margin-left: 20px;
+}
+.titulo--main{
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+h3{
+    font-family:  'Zen Kurenaido', sans-serif;
+    font-size: 30px; 
+}
+p{
+    font-family: "Encode Sans",Arial,sans-serif;
+}
+.col-4-div{
+   
+    padding-top: 15px;
+}
+.col-4-div1{
+    border-bottom: 1px solid black;
+}
+
+.section--fondoNegro{
+    box-sizing: border-box;
+    width: 100%;
+    height: 550px;
+}
+.fondoNegro{
+    margin-top: 10px;
+    background-image: url('../Image/prueba2.jpg');
+    background-image: url('prueba2.jpg');
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 5%;
+    
+}
+.sala{
+    width: 300px;
+    height: 300px;
+    background: url('sala1.jpeg');
+    margin-top: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.9s ease-out;
+    
+   
+}
+.sala:hover{
+    background: url('sala2.jpeg') no-repeat;
+    background-size: cover;
+    transition: all 0.9s ease-out;
+    box-sizing: border-box;
+    width: 330px;
+    height: 330px;
+}
+.fondoNegro--p{
+    font-family: "Encode Sans",Arial,sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    vertical-align:top;
+    padding: 15px;
+    padding-left: 40px;
+    padding-top: 80px;
+    font-size: 25px;
+}
+.section--fondoNegro--h4{
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 50px;
+    font-family:  'Zen Kurenaido', sans-serif;
+    font-size: 50px;
+    color: #035bd6;
+    display: block;
+}
+
+
+
+
+@media  (max-width:992px){
+
+    .nav-item{
+        font-size: 13px;
+        margin: 0px 10px 0px 10px;
+        line-height: 70px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+    .logo{
+        font-size: 20px;
+        padding: 0% 10px;
+        line-height: 30px;
+    }
+    .debajo--titulo--h2{
+        margin: 0%;
+        display: block;
+        font-size: 67px;
+        background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 0.5px;
+        letter-spacing: 3px;
+    }
+    .debajo--titulo--h2-2{
+        margin: 0%;
+        display: block;
+        font-size: 67px;
+        background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 0.5px;
+        letter-spacing: 3px;
+    }
+    .debajo--titulo--p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 22px;
+    }
+    .sala{
+        width: 200px;
+        height: 200px;
+        background: url('sala1.jpeg');
+        margin-top: 25px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.9s ease-out;
+        margin-left: 250px;
+        margin-bottom: 100px;
+       
+    }
+    .sala:hover{
+        background: url('sala2.jpeg') no-repeat;
+        background-size: cover;
+        transition: all 0.9s ease-out;
+        box-sizing: border-box;
+        width: 250px;
+        height: 250px;
+    }
+    .section--fondoNegro--h4{
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 50px;
+        font-family:  'Zen Kurenaido', sans-serif;
+        font-size: 40px;
+        color: #035bd6;
+        display: block;
+    }
+    .fondoNegro--p{
+        font-family: "Encode Sans",Arial,sans-serif;
+        color: rgb(255, 255, 255);
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        vertical-align:top;
+        text-align: left;
+        padding: 15px;
+        padding-left: 40px;
+        padding-top: 80px;
+        font-size: 20px;
+    }
+    .bajar{
+        vertical-align: bottom;
+        margin-top: 50px;
+    }
+}
+
+@media  (max-width:768px){
+
+    body{
+        padding-top: 70px;
+    }
+    .header{
+        height: 70px;
+    }
+    .logo{
+        font-size: 20px;
+        padding: 0% 10px;
+        line-height: 30px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-right: 0px;
+        background: rgb(15, 50, 65);
+        position: fixed;
+        top: 60px;
+        left: 0%;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0px;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+
+    }
+    
+    
+    .nav-item{
+        font-size: 15px;
+        margin: 0px 20px 0px 20px;
+        line-height: 70px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+    
+    .menu-link:hover{
+        background:rgb(15, 8, 77);
+        color: rgb(11, 12, 12);
+        
+    }
+    
+    .menu-link_active_home{
+        background:rgb(15, 8, 77);
+    }
+    .toggle{
+       
+        display: block;
+    }
+    .nav-menu-visible{
+        left: 0%;
+    }
+    .debajo--titulo--h2{
+        margin: 0%;
+        display: block;
+        font-size: 58px;
+        background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: left;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 0.4px;
+        letter-spacing: 3px;
+    }
+    .debajo--titulo--h2-2{
+        margin: 0%;
+        display: block;
+        font-size: 58px;
+        background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#eb4242 89.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 0.4px;
+        letter-spacing: 3px;
+    }
+    .debajo--titulo--p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 18px;
+    }
+    .sala{
+        width: 130px;
+        height: 130px;
+        background: url('sala1.jpeg');
+        margin-top: 25px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.9s ease-out;
+        margin:auto;
+       
+    }
+    .sala:hover{
+        background: url('sala2.jpeg') no-repeat;
+        background-size: cover;
+        transition: all 0.9s ease-out;
+        box-sizing: border-box;
+        width: 180px;
+        height: 180px;
+    }
+    .section--fondoNegro--h4{
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 50px;
+        font-family:  'Zen Kurenaido', sans-serif;
+        font-size: 25px;
+        color: #035bd6;
+        display: block;
+    }
+    .fondoNegro--p{
+        font-family: "Encode Sans",Arial,sans-serif;
+        color: rgb(255, 255, 255);
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        vertical-align:top;
+        text-align: left;
+        padding: 15px;
+        padding-left: 40px;
+        padding-top: 80px;
+        font-size: 15px;
+    }
+    .bajar{
+        vertical-align: bottom;
+        margin-top: 50px;
+    }
+
+}
+.debajo--titulo{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-image: url('FondoNegro.jpg') ;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+}
+
+
